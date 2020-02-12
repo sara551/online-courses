@@ -1,0 +1,251 @@
+body
+ {
+  padding: 0;
+  margin: 0;
+  background: white;
+  font-size: 100%;
+ }
+ul
+  { /*for the style for the nav bar*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;/*for the background color of the nv bar*/
+    position:sticky;
+  }
+nav ul li:hover/* for the style of the tet when the mouse touch it */
+  {
+  background: #1B4F72;
+  transition: 0.5s;/*to make it transmit go out*/
+  transform: scale(1,1);
+  border-radius: 30%;/*to make it curved*/
+  }
+  li
+  {
+    display: inline;/*to make the text all in the same line*/
+    float: left;/*to make the start of them from the left*/
+    margin-right: 50px;/*to make spaces between the texts*/
+  }
+  li a/*the style of the texts*/
+  {
+    display: block;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    color: white;
+  }
+  .gray/*for the header of the first class*/
+  {
+    margin-left: 500px;/*the position of it*/
+    font-size: 400%;
+    margin-top: 50px;
+    position: absolute;
+    font-family:sans-serif;/*the type of the text*/
+    font-weight:lighter ;/*to make the text radius smaller*/
+  }
+  .green/*the style of the information of html*/
+  {
+    margin-left: 350px;
+    margin-top: 150px;
+    font-weight: lighter;
+    font-size: 200%;
+    position: absolute;
+  }
+  .Learn/*for the first button*/
+  {
+    margin-left: 400px;/*for the position*/
+    margin-top: 220px;
+    height: 45px;/*the size of the button*/
+    width: 150px;
+    position:absolute;
+    background: #1B4F72;/*the background of the button*/
+    border: #1B4F72;
+    border-radius: 30%;/*to make it curved*/
+  }
+  .learn a/*for the text decoration*/
+  {
+    text-decoration: none;
+    color:white;/*for the color of the text*/
+    font-size: 120%;
+  }
+  .Reference/*the second button*/
+  {
+    margin-left: 580px;
+    margin-top: 220px;
+    position: absolute;
+    height: 45px;/*for it's size*/
+    width: 200px;
+    background: #1B4F72;
+    border: #1B4F72;
+    border-radius: 30%;
+  }
+  .Reference a/*the text decoration*/
+  {
+    text-decoration: none;
+    color:white;
+    font-size: 120%;
+  }
+  .white/*for the first header in the scroll bar*/
+  {
+    margin-left: 20px;
+    font-size: 150%;
+  }
+  .silver/*for thescroll bar*/
+  {
+    width: 250px;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;  /*to make it fixed without scrolling bar to flow*/
+    box-shadow: 2px 2px 2px;
+    position: absolute;
+  }
+  .silver a/*style text*/
+  {
+    text-decoration: none;
+    font-size: 130%;
+    color: black;
+    margin-left: 20px;
+  }
+  .silver a:hover/*for style when mouse touch the text*/
+  {
+    color:#1B4F72;
+  }
+  .HTML/*for the first box of html*/
+  {
+    margin-left: 900px;
+    margin-top: 80px;
+    position: relative;
+    width: 300px;
+    height: 280px;
+    box-shadow: 3px 3px 3px 3px;
+  }
+  p/*the text in the box*/
+  {
+    margin-left: 15px;
+  }
+  .index/*for the header of the box*/
+  {
+    margin-left: 15px;
+    font-size: 23px;
+  }
+  .Try/*button for second button to move to second website to try*/
+  {
+    margin-left: 900px;
+    margin-top: 30px;
+    height: 45px;
+    width: 130px;
+    position:static;
+    background: #1B4F72;
+    border: #1B4F72;
+    border-radius: 30%;
+  }
+  .Try a/*for the text style*/
+  {
+    text-decoration: none;
+    color:white;
+  }
+  .black/*for the second class of the website*/
+  {
+    background: #D5D8DC ;/*background of the text*/
+    width: 1095px;
+    height: 430px;
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 50px;
+  }
+  .css/*the header of the box*/
+  {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 23px;
+    position:absolute;
+  }
+  .blue/*for the box code*/
+  {
+    width: 300px;
+    height: 250px;
+    box-shadow: 3px 3px 3px 3px;
+    margin-left: 15px;
+    margin-top: 80px;
+    position: absolute;
+    background: white;
+    position: absolute;
+  }
+  .orange/*the header class*/
+  {
+    font-size: 400%;
+    margin-left: 650px;
+    position: absolute;
+  }
+  .violet/*style of the information of css*/
+  {
+    margin-left: 520px;
+    margin-top: 140px;
+    position: absolute;
+  }
+.red/*style of first button of css*/
+ {
+  margin-left: 550px;
+  margin-top: 200px;
+  position:absolute;
+  height: 40px;
+  width: 110px;
+  background: #1B4F72;
+  border: #1B4F72;
+  border-radius: 30%;   
+ }
+.red a/*text style*/
+ {
+  color:white;
+  text-decoration: none;
+ }
+.lemon/*second button for the tags*/
+  {
+    margin-left: 700px;
+    margin-top: 200px;
+    position: absolute;
+    height: 40px;
+    width:150px;
+    background: #1B4F72;
+    border:#1B4F72;
+    border-radius: 30%;
+  }
+.lemon a /*it's text style*/
+  {
+    text-decoration: none;
+    color:white;
+  }
+.pink/*the button to move to another website to try css code*/
+  {
+    margin-top: 50px;
+    position: absolute;
+    height: 40px;
+    width: 130px;
+    background-color: #1B4F72;
+    border:#1B4F72;
+    border-radius:30%;
+  }
+.pink a /*text style*/
+  {
+    text-decoration: none;
+    color:white;
+  }
+.brown/*for second image style*/
+  {
+    width: 100px;
+    height: 100px;
+    margin-left: 900px;
+    border-radius:100%;
+    position: absolute;
+    box-shadow: 2px 2px 2px 2px;
+  }
+.purple/*for the first image*/
+  {
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 350px;
+    box-shadow: 2px 2px 2px 2px;
+  }

@@ -1,0 +1,155 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: white;
+  font-size: 100%;
+    }
+ul
+  {
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+  }
+nav ul li:hover
+  {
+  background: #1B4F72;
+  transition: 0.5s;
+  transform: scale(1,1);
+  border-radius: 30%;
+  }
+  li
+  {
+    display: inline;
+    float: left;
+    margin-right: 20px;
+  }
+  li a
+  {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+  }
+  h1
+  {
+    font-family:oblique;
+    margin-top: 50px;
+    font-size: 250%;
+    margin-left: 270px;
+    position: absolute;
+  }
+  h1:first-letter
+  {
+    font-weight: bold;
+    font-size: 150%;
+    color:#1B4F72;
+  }
+  div
+  {
+    margin-top: 8px;
+    margin-left: 20px;
+    position: absolute;
+  }
+  div a
+  {
+    text-decoration: none;
+    color: black;
+  }
+  h3
+  {
+    font-family:inherit;
+  }
+  div a:hover
+  {
+    color: #1B4F72;
+  }
+  .scrollbar
+  {
+    width: 200px;
+    height: 590px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position:fixed;
+  }
+  .scrollbar a:hover
+  {
+    background-color: #333;
+  }
+.yellow
+{
+  width: 90px;
+  height: 45px;
+  position: absolute;
+  margin-left: 270px;
+  margin-top: 130px;
+  background-color: #1B4F72;
+  border:#1B4F72;
+  border-radius: 30%;
+  text-align: center;
+}
+button a
+{
+  text-decoration: none;
+  color:white;
+}
+.red
+{
+  width: 90px;
+  height: 45px;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 130px;
+  background-color: #1B4F72;
+  border:#1B4F72;
+  border-radius: 30%;
+  text-align: center;
+}
+.green
+{
+  color:black;
+  font-size: 130%;
+  margin-left: 250px;
+  margin-top: 200px;
+  background-color: #D5D8DC ;
+}
+.gray
+{
+  margin-top: 400px;
+  color:black;
+}
+.purple
+{
+  margin-top:470px;
+  margin-left: 270px;
+  font-size: 110%;
+  color: black;
+  text-decoration: none;
+}
+.black
+{
+  margin-top: 550px;
+  margin-left: 270px;
+  color: black;
+  font-size: 140%;
+}
+.box
+{
+  margin-left: 270px;
+  margin-top: 640px;
+  box-shadow: 3px 3px 3px 3px;
+  width: 500px;
+  height: 260px;
+  color:black;
+}
+.check
+{
+  width: 130px;
+  height: 45px;
+  margin-left: 270px;
+  margin-top: 930px;
+  background: #1B4F72;
+  border:#1B4F72;
+  border-radius: 30%;
+}
